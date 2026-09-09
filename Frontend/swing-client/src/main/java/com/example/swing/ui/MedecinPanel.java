@@ -1,5 +1,34 @@
 package com.example.swing.ui;
 
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.Cursor;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.Font;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.Insets;
+import java.lang.reflect.Type;
+import java.util.List;
+
+import javax.swing.AbstractCellEditor;
+import javax.swing.BorderFactory;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.JViewport;
+import javax.swing.SwingUtilities;
+import javax.swing.border.EmptyBorder;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableCellEditor;
+import javax.swing.table.TableCellRenderer;
+
 import com.example.swing.ThemeManager;
 import com.example.swing.api.ApiClient;
 import com.example.swing.listener.DataChangeManager;
@@ -7,17 +36,7 @@ import com.example.swing.model.Medecin;
 import com.example.swing.ui.dialog.MedecinDialog;
 import com.google.gson.reflect.TypeToken;
 
-import javax.swing.*;
-import javax.swing.border.EmptyBorder;
-import javax.swing.table.DefaultTableModel;
-import javax.swing.table.TableCellRenderer;
-import javax.swing.table.TableCellEditor;
-import javax.swing.AbstractCellEditor;
-import java.awt.*;
-import java.lang.reflect.Type;
-import java.util.List;
-
-/*public class MedecinPanel extends JPanel {
+public class MedecinPanel extends JPanel {
 
     private final ApiClient apiClient;
 
@@ -36,7 +55,7 @@ import java.util.List;
 
         chargerListe();
     }
- */
+
     private JPanel createTopPanel() {
         JPanel panel = new JPanel(new BorderLayout());
         panel.setBackground(ThemeManager.getBackgroundColor());

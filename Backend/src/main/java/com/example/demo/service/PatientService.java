@@ -1,11 +1,12 @@
 package com.example.demo.service;
 
-import com.example.demo.entity.Patient;
-import com.example.demo.repository.PatientRepository;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import com.example.demo.entity.Patient;
+import com.example.demo.repository.PatientRepository;
 
 @Service
 public class PatientService {
@@ -26,7 +27,7 @@ public class PatientService {
         return patientRepository.save(patient);
     }
 
-    public Patient update(String codepat, Patient patientDetails) {
+    /*public Patient update(String codepat, Patient patientDetails) {
         Patient patient = getById(codepat);
         patient.setNom(patientDetails.getNom());
         patient.setPrenom(patientDetails.getPrenom());
@@ -34,7 +35,7 @@ public class PatientService {
         patient.setAdresse(patientDetails.getAdresse());
         return patientRepository.save(patient);
     }
-
+*/
     public void delete(String codepat) {
         patientRepository.deleteById(codepat);
     }
