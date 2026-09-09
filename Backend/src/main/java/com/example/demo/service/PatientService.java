@@ -27,7 +27,7 @@ public class PatientService {
         return patientRepository.save(patient);
     }
 
-    /*public Patient update(String codepat, Patient patientDetails) {
+    public Patient update(String codepat, Patient patientDetails) {
         Patient patient = getById(codepat);
         patient.setNom(patientDetails.getNom());
         patient.setPrenom(patientDetails.getPrenom());
@@ -35,7 +35,7 @@ public class PatientService {
         patient.setAdresse(patientDetails.getAdresse());
         return patientRepository.save(patient);
     }
-*/
+
     public void delete(String codepat) {
         patientRepository.deleteById(codepat);
     }
