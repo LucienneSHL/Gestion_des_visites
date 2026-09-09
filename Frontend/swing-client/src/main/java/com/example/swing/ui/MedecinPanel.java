@@ -17,7 +17,7 @@ import java.awt.*;
 import java.lang.reflect.Type;
 import java.util.List;
 
-public class MedecinPanel extends JPanel {
+/*public class MedecinPanel extends JPanel {
 
     private final ApiClient apiClient;
 
@@ -36,7 +36,7 @@ public class MedecinPanel extends JPanel {
 
         chargerListe();
     }
-
+ */
     private JPanel createTopPanel() {
         JPanel panel = new JPanel(new BorderLayout());
         panel.setBackground(ThemeManager.getBackgroundColor());
