@@ -12,7 +12,7 @@ import java.util.Base64;
 
 public class ApiClient {
 
-    private static final String BASE_URL = "http://localhost:8080/api";
+    private static final String BASE_URL = "http://localhost:8081/api";
     private static final String USERNAME = "admin";
     private static final String PASSWORD = "admin123";
 
