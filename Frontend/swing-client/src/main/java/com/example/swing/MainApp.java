@@ -91,7 +91,7 @@ public class MainApp {
         header.setPreferredSize(new Dimension(0, 60));
         header.setBorder(BorderFactory.createEmptyBorder(0, 20, 0, 20));
 
-        titleLabel = new JLabel("Gestion des Visites Medicales");
+        titleLabel = new JLabel("Gestion des Visites Médicales");
         titleLabel.setFont(new Font("Segoe UI", Font.BOLD, 22));
         titleLabel.setForeground(Color.WHITE);
 
