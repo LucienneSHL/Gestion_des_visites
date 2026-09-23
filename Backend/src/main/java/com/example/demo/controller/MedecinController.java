@@ -17,7 +17,6 @@ public class MedecinController {
 
     @GetMapping
     public List<Medecin> getAll() {
-        System.out.println("=== Récupération de la liste des médecins ===");
         return medecinService.getAll();
     }
 
@@ -41,4 +40,3 @@ public class MedecinController {
         medecinService.delete(codemed);
     }
 }
-

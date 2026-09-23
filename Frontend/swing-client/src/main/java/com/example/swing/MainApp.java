@@ -52,7 +52,7 @@ public class MainApp {
                 e.printStackTrace();
             }
 
-            frame = new JFrame("Gestion des Visites Médicales");
+            frame = new JFrame("Gestion des Visites Medicales");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setSize(1200, 800);
             frame.setLocationRelativeTo(null);
@@ -91,7 +91,7 @@ public class MainApp {
         header.setPreferredSize(new Dimension(0, 60));
         header.setBorder(BorderFactory.createEmptyBorder(0, 20, 0, 20));
 
-        titleLabel = new JLabel("Gestion des Visites Médicales");
+        titleLabel = new JLabel("Gestion des Visites Medicales");
         titleLabel.setFont(new Font("Segoe UI", Font.BOLD, 22));
         titleLabel.setForeground(Color.WHITE);
 
