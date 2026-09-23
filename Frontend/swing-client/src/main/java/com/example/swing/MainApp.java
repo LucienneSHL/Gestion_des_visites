@@ -52,7 +52,7 @@ public class MainApp {
                 e.printStackTrace();
             }
 
-            frame = new JFrame("Gestion des Visites Medicales");
+            frame = new JFrame("Gestion des Visites Médicales");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setSize(1200, 800);
             frame.setLocationRelativeTo(null);
